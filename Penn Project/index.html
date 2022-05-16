@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Bangers&display=swap" rel="stylesheet">
+    <title>Yu-Gi-Oh!</title>
+</head>
+<body>
+    <div class="main">
+        <div class="header" id="header">
+            <h2>Yu-Gi-Oh! Trading Card Catalog</h2>
+            <img src="img/yugioh.png" id="logo" alt="yugioh logo">
+            <div >
+                <label for="inp-search">Enter card name:</label>
+                <input type="text" id="inp-search" class="form-control" placeholder="Enter Card Name" >
+                <button id="search-button">Search</button>
+                
+            </div>
+            <div id="search-div" >
+                <label for="">Select Filter And Press Search:</label>
+                <button class="btn" value="" id="none">None</button>
+                <button class="btn" value="Normal Monster" id="normal">Normal Monsters</button>
+                <button class="btn" value="Effect Monster" id="effect">Effect Monsters</button>
+                <button class="btn" value="Spell Cards" id="spell">Spell Cards</button>
+                <button class="btn" value="Trap Cards" id="trap">Trap Cards</button>
+            </div>
+           
+           
+        </div>
+        <div id="content">
+           
+
+        </div>
+
+    </div>
+    <script src="js/app.js"></script>
+</body>
+</html>
+
